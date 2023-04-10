@@ -1,6 +1,7 @@
 # flutter_blue_ios_zebra
 
-A new Flutter project.
+A new flutter plugin for Bluetooth zebra printer IOS(ExternalAccessory) module for serial communication.
+ios solution with Bluetooth version less than 4.0
 
 ## Getting Started
 
