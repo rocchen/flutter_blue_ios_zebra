@@ -21,5 +21,5 @@ A new Flutter project.
   s.frameworks = ["ExternalAccessory"]
   s.vendored_libraries = '**/*.a'
   # Flutter.framework does not contain a i386 slice.
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386', 'VALID_ARCHS' => 'x86_64 armv7 arm64'}
 end
